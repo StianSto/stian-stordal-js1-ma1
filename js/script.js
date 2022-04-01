@@ -70,8 +70,10 @@ function createCats(cats) {
             ageDisplay = cats.age;
         }
 
-        html += `<div><h5>Name: ${cats[i].name}</h5><p>Age: ${cats[i].age}</p></div>`;
-
+        html += `<div>
+                    <h5>Name: ${cats[i].name}</h5>
+                    <p>Age: ${cats[i].age}</p>
+                </div>`;
     }
     return html
 }
