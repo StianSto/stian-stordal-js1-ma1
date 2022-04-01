@@ -53,7 +53,7 @@ resultsContainer.style.backgroundColor = "yellow";
 function listFunction(list) {
     // list.forEach(i => console.log(i.name));
     for (let i = 0; i < list.length; i++) {
-        console.log(list[i].name)
+        console.log(list[i].name);
     }
 }
 
@@ -75,7 +75,7 @@ function createCats(cats) {
                     <p>Age: ${cats[i].age}</p>
                 </div>`;
     }
-    return html
+    return html;
 }
 
 const createCatsReturnHTML = createCats(cats);
